@@ -25,5 +25,5 @@
 
 | **File name**            | **Type**   | **File size**       | **md5sum**                       |
 |:-------------------------|:-----------|:--------------------|:---------------------------------|
-| M-series-20240924.tar.xz | Compressed | TBC                 | TBC                              |
+| M-series-20240924.tar.xz | Compressed | 1,868,956,696 bytes | 93e34a816f5ba40b8b937cc4e507ffa3 |
 | 8667.bin                 | Unpacked   | 4,088,706,520 bytes | 17d69a4b5498bf3f6730a26b810d90f5 |
