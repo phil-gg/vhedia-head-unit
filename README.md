@@ -16,6 +16,10 @@
     ```
     tar -cJf M-series-20240924.tar.xz 8667.bin 8667.upd
     ```
+ - Unpack with:
+    ```
+    tar -xf M-series-20240924.tar.xz
+    ```
 
 ## Files in this repo
 
