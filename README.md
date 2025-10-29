@@ -20,7 +20,7 @@
     ```
     tar -xf M-series-20240924.tar.xz
     ```
- - As is typical for Android firmware packages, `8667.upd` is a text file containing only the md5sum ofd `8667.bin`.
+ - As is typical for Android firmware packages, `8667.upd` is a text file containing only the md5sum of `8667.bin`.
 
 
 ## Files in this repo
