@@ -21,7 +21,7 @@
     tar -xf M-series-20240924.tar.xz
     ```
  - As is typical for Android firmware packages, `8667.upd` is a text file containing only the md5sum of `8667.bin`.
- - The Android firmware package is a large binary that cannot be committed into the repo itself, rather the firmware package is available as [a release here](https://github.com/phil-gg/vhedia-head-unit/releases/download/M-series-firmware/M-series-20240924.tar.xz).
+ - The Android firmware package is a large binary that cannot be committed into the repo itself, rather the firmware package is available as [a release here](https://github.com/phil-gg/vhedia-head-unit/releases/tag/M-series-firmware).
 
 ## Files in this repo
 
