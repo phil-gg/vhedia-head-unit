@@ -63,7 +63,7 @@
 
   - As is typical for Android firmware packages, `8667.upd` is a text file containing only the md5sum of `8667.bin` (the firmware itself)
 
-  - Load both the upd file and the bin file onto the root of a FAT32 formatted USB drive, and insert into a port on your head unit
+  - Load both the upd file and the bin file onto the root of a FAT32 formatted USB drive, and plug into a port on your head unit
       - If the firmware upgrade process does not start automatically, try: -
           - a different USB port on the unit
           - repeatedly tapping on the touch screen with 5 fingers spread out, during a reboot
