@@ -21,7 +21,7 @@
          - No aftermarket car head unit appears to exist, with any recent enough Android version to still get Google security updates _(and then rooting, customising & repacking these firmwares is a whole other rabbit hole)_
          - Google made changes for Android 14 onwards which makes it deeply unpalattable for aftermarket head unit manufacturers to use.  You only seem to be able to get Android 10 to 13 aftermarket head units and anything later is a faked version, with the version faking being visible through a mismatched, lower API version number in the settings
          - With the `Release 4` firmware, below, I do think this is probably about as good as is available on the market for aftermarket Android head units
-         - But why pay many multiples of the price for Vhedia when they add absolutely no hardware or software value versus Junsun / manufacturer direct?  The _(admittedly helpful)_ installation videos on youtube are freely available to all, and given the important bits is about how to disassemble and rebuild your car dashboard, the [Camry/Aurion video](https://www.youtube.com/watch?v=-fwhdQVwbA0) worked just great for the Junsun head unit
+         - But why pay many multiples of the price for Vhedia when they add absolutely no hardware or software value versus Junsun / manufacturer direct?  The _(admittedly helpful)_ installation videos on youtube are freely available to all, and given the important bits are about how to disassemble and rebuild your car dashboard, the [Camry/Aurion video](https://www.youtube.com/watch?v=-fwhdQVwbA0) worked just great for the Junsun head unit
 
 ## Release 1
 
