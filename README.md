@@ -18,10 +18,10 @@
           - __Doubling down on these false claims:__  After explicitly pointing out the above issues with the copy on the Vhedia website, by email to Vhedia support, Vhedia have since doubled down on all of these false claims in a misleading [new YouTube video here](https://www.youtube.com/watch?v=MtvloVq6mhY)
   - __Question:__  Would I recommend a Junsun head unit with Mediatek 8667 CPU, 8GB RAM, and 256GB onboard storage?
      - __Answer:__  Probably yes, but only because:
-         - No aftermarket car head unit appears to exist, with any recent enough Android version to still get Google security updates _(and then rooting, customising & repacking these firmwares is a whole other rabbit hole)_
+         - No aftermarket car head unit appears to exist, with any recent enough Android version to still get Google security updates _(and then rooting, customising & repacking these firmwares to apply these updates is a whole other rabbit hole)_
          - Google made changes for Android 14 onwards which makes it deeply unpalattable for aftermarket head unit manufacturers to use.  You only seem to be able to get Android 10 to 13 aftermarket head units and anything later is a faked version, with the version faking being visible through a mismatched, lower API version number in the settings
-         - With the `Release 4` firmware, below, I do think this is probably about as good as is available on the market for aftermarket Android head units
-         - But why pay many multiples of the price for Vhedia when they add absolutely no hardware or software value versus Junsun / manufacturer direct?  The _(admittedly helpful)_ installation videos on youtube are freely available to all, and given the important bits are about how to disassemble and rebuild your car dashboard, the [Camry/Aurion video](https://www.youtube.com/watch?v=-fwhdQVwbA0) worked just great for the Junsun head unit
+         - With the `Release 4` firmware, below, I do think this is probably about as good as is available on the market _(in late 2025 / ealry 2026)_ for aftermarket Android head units
+         - But why pay many multiples of the price for Vhedia when they add absolutely no hardware or software value versus Junsun / manufacturer direct?  The _(admittedly helpful)_ installation videos on youtube are freely available to all, and given the important bits are about how to disassemble and rebuild your car dashboard (not head unit specifics), the [Camry/Aurion video](https://www.youtube.com/watch?v=-fwhdQVwbA0) worked just great for the Junsun head unit
 
 ## Release 1
 
@@ -37,7 +37,14 @@
 
 ## Release 2
 
-  - TO-DO: Junsun v19
+  - This was the latest Junsun firmware available _(requested via Alibaba seller support messages)_ at the time of purchase of the V1 unit for the Camry
+  - Junsun's Google Drive link _(yes really)_ is:  (drive.google.com/file/d/1UZgRgoTQ0l7pdaYKqIWbWBcxlVreVCM-)[https://drive.google.com/file/d/1UZgRgoTQ0l7pdaYKqIWbWBcxlVreVCM-]
+  - Link to firmware in this github repository:  
+
+| **File name**                                            | **Type**   | **File size**       | **md5sum**                       |
+|:---------------------------------------------------------|:-----------|:--------------------|:---------------------------------|
+| v19_20250414_8667Q-Junsun-UI03-car-model-1280x720.tar.xz | Compressed | 1,802,212,760 bytes | 5e52f4f572c358804a60f150edead337 |
+| 8667.bin                                                 | Unpacked   | 4,001,703,252 bytes | 38b16b41c2cca07f9be503991f61882f |
 
 ## Release 3
 
