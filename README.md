@@ -38,7 +38,7 @@
 ## Release 2
 
   - This was the latest Junsun firmware available _(requested via Alibaba seller support messages)_ at the time of purchase of the V1 unit for the Camry
-  - Junsun's Google Drive link _(yes really)_ is:  (drive.google.com/file/d/1UZgRgoTQ0l7pdaYKqIWbWBcxlVreVCM-)[https://drive.google.com/file/d/1UZgRgoTQ0l7pdaYKqIWbWBcxlVreVCM-]
+  - Junsun's Google Drive link _(yes really)_ is:  [drive.google.com/file/d/1UZgRgoTQ0l7pdaYKqIWbWBcxlVreVCM-](https://drive.google.com/file/d/1UZgRgoTQ0l7pdaYKqIWbWBcxlVreVCM-)
   - Link to firmware in this github repository:  [Junsun-firmware-v19-unmodified](https://github.com/phil-gg/vhedia-head-unit/releases/tag/Junsun-firmware-v19-unmodified)
 
 | **File name**                                            | **Type**   | **File size**       | **md5sum**                       |
@@ -48,7 +48,14 @@
 
 ## Release 3
 
-  - TO-DO: Junsun v20
+  - One more firmware update is now available from Junsun _(this one)_
+  - Junsun's original Google Drive link is:  [drive.google.com/file/d/1SDy6NghyjUhYZwmwQKP4AoifnhxCOjUt](https://drive.google.com/file/d/1SDy6NghyjUhYZwmwQKP4AoifnhxCOjUt)
+  - Link to firmware in this github repository:  [Junsun-firmware-v20-unmodified](https://github.com/phil-gg/vhedia-head-unit/releases/tag/Junsun-firmware-v20-unmodified)
+
+| **File name**                                            | **Type**   | **File size**       | **md5sum**                       |
+|:---------------------------------------------------------|:-----------|:--------------------|:---------------------------------|
+| v20_20260120_8667Q-Junsun-UI03-car-model-1280x720.tar.xz | Compressed | 1,733,960,048 bytes | e7d3085e9a4530033748cefef068e3c2 |
+| 8667.bin                                                 | Unpacked   | 3,918,661,116 bytes | 08c6ed4b58af47af6c639f0010b76a35 |
 
 ## Release 4
 
@@ -63,12 +70,17 @@
     tar -cJf M-series-20240924.tar.xz 8667.bin 8667.upd
     ```
 
+  - The firmware here was uploaded as follows (example command for release 2):
+    ```
+    GH_DEBUG=api gh release upload Junsun-firmware-v19-unmodified v19_20250414_8667Q-Junsun-UI03-car-model-1280x720.tar.xz -R "phil-gg/vhedia-head-unit" --clobber
+    ```
+
   - Unpack with (example command for release 1):
     ```
     tar -xf M-series-20240924.tar.xz
     ```
 
-  - As is typical for Android firmware packages, `8667.upd` is a text file containing only the md5sum of `8667.bin` (the firmware itself)
+  - As is typical for (older) Android firmware packages, `8667.upd` is a text file containing only the md5sum of `8667.bin` (the firmware itself)
 
   - Load both the upd file and the bin file onto the root of a FAT32 formatted USB drive, and plug into a port on your head unit
       - If the firmware upgrade process does not start automatically, try: -
