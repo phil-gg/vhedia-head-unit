@@ -39,7 +39,7 @@
 
   - This was the latest Junsun firmware available _(requested via Alibaba seller support messages)_ at the time of purchase of the V1 unit for the Camry
   - Junsun's Google Drive link _(yes really)_ is:  (drive.google.com/file/d/1UZgRgoTQ0l7pdaYKqIWbWBcxlVreVCM-)[https://drive.google.com/file/d/1UZgRgoTQ0l7pdaYKqIWbWBcxlVreVCM-]
-  - Link to firmware in this github repository:  
+  - Link to firmware in this github repository:  [Junsun-firmware-v19-unmodified](https://github.com/phil-gg/vhedia-head-unit/releases/tag/Junsun-firmware-v19-unmodified)
 
 | **File name**                                            | **Type**   | **File size**       | **md5sum**                       |
 |:---------------------------------------------------------|:-----------|:--------------------|:---------------------------------|
