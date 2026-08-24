@@ -72,7 +72,10 @@
 
   - The firmware here was uploaded as follows (example command for release 2):
     ```
-    GH_DEBUG=api gh release upload Junsun-firmware-v19-unmodified v19_20250414_8667Q-Junsun-UI03-car-model-1280x720.tar.xz -R "phil-gg/vhedia-head-unit" --clobber
+    GH_DEBUG=api gh release upload \
+    Junsun-firmware-v19-unmodified \
+    v19_20250414_8667Q-Junsun-UI03-car-model-1280x720.tar.xz \
+    -R "phil-gg/vhedia-head-unit" --clobber
     ```
 
   - Unpack with (example command for release 1):
