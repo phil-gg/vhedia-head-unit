@@ -2,8 +2,8 @@
 
 ## Background / rationale
 
-  - I bought a MT-1912 head unit from [Vhedia](https://vhedia.com.au/product/mitsubishi-triton-mq-mr-head-unit-2016-2021-dail-aircon/) (order date 23-March-2025, total cost AUD 1,032.65 including shipping and GST) to use in a model year 2023 Mitsubishi Triton MR
-  - I also bought a Junsun V1 head unit from [Alibaba](https://www.alibaba.com/product-detail/Junsun-V1-RU-Stock-Wireless-CarPlay_1600994428446.html) (order date 28-Nov-2025, total cost USD 243.91 / AUD 374.73 including shipping all taxes and Alibaba transaction fee) to use in a 2008 Toyota Camry ACV40R
+  - I bought a MT-1912 head unit from [Vhedia](https://vhedia.com.au/product/mitsubishi-triton-mq-mr-head-unit-2016-2021-dail-aircon/) _(order date 23-March-2025, total cost AUD 1,032.65 including shipping and GST)_ to use in a model year 2023 Mitsubishi Triton MR
+  - I also bought a Junsun V1 head unit from [Alibaba](https://www.alibaba.com/product-detail/Junsun-V1-RU-Stock-Wireless-CarPlay_1600994428446.html) _(order date 28-Nov-2025, total cost USD 243.91 / AUD 374.73 including shipping all taxes and Alibaba transaction fee)_ to use in a 2008 Toyota Camry ACV40R
   - Despite the 2.75 times price difference, these two are the same `FF_866X` hardware model, with Mediatek 8667 CPU, 8GB RAM, and 256GB onboard storage, same 1280 x 720 IPS screen, and they both run the exact same firmware, based on Android 10.  Each came with the fascia and all cables needed for their respective vehicles, and trim removal tools
   - This repository is a backup of various firmwares I use on my purchased units, in case the original sources (linked below) are taken offline
 
@@ -19,8 +19,8 @@
   - __Question:__  Would I recommend a Junsun head unit with Mediatek 8667 CPU, 8GB RAM, and 256GB onboard storage?
      - __Answer:__  Probably yes, but only because:
          - No aftermarket car head unit appears to exist, with any recent enough Android version to still get Google security updates _(and then rooting, customising & repacking these firmwares to apply these updates is a whole other rabbit hole)_
-         - Google made changes for Android 14 onwards which makes it deeply unpalattable for aftermarket head unit manufacturers to use.  You only seem to be able to get Android 10 to 13 aftermarket head units and anything later is a faked version, with the version faking being visible through a mismatched, lower API version number in the settings
-         - With the `Release 4` firmware, below, I do think this is probably about as good as is available on the market _(in late 2025 / ealry 2026)_ for aftermarket Android head units
+         - Google made changes for Android 14 onwards which makes it deeply unpalatable for aftermarket head unit manufacturers to use.  You only seem to be able to get Android 10 to 13 aftermarket head units and anything later is a faked version, with the version faking being visible through a mismatched, lower API version number in the settings
+         - With the `Release 4` firmware, below, I do think this is probably about as good as is available on the market _(in late 2025 / early 2026)_ for aftermarket Android head units
          - But why pay many multiples of the price for Vhedia when they add absolutely no hardware or software value versus Junsun / manufacturer direct?  The _(admittedly helpful)_ installation videos on youtube are freely available to all, and given the important bits are about how to disassemble and rebuild your car dashboard (not head unit specifics), the [Camry/Aurion video](https://www.youtube.com/watch?v=-fwhdQVwbA0) worked just great for the Junsun head unit
 
 ## Release 1
@@ -59,7 +59,17 @@
 
 ## Release 4
 
-  - TO-DO: Customised Junsun v20
+  - A third-party _(not me, nor Vhedia, nor Junsun)_ has made UI and Radio app fixes and repackaged the firmware for installation on the head unit
+  - More details about the modifications are in the `README.txt` file included with the release
+  - This is much better than any firmware available from Vhedia, because, the radio now shows RDS text, many UI bugs and issues in Vhedia & Junsun firmwares have been fixed, and all the different main UI themes from many different firmware releases, are all included in this one firmware package.
+  - __WARNING:__  While I run this firmware successfully on both the Vhedia MT-1912 head unit in my Triton and the Junsun V1 head unit head unit in my Camry, your mileage may vary!
+  - The original download link for this customised v20 firmware is (Telegram):  [t.me/Randroides/203339](https://t.me/Randroides/203339)
+  - Link to firmware in this github repository:  [customised-v20-Junsun-firmware](https://github.com/phil-gg/vhedia-head-unit/releases/tag/customised-v20-Junsun-firmware)
+
+| **File name**                                                 | **Type**   | **File size**       | **md5sum**                       |
+|:--------------------------------------------------------------|:-----------|:--------------------|:---------------------------------|
+| v20_20260122_GMOD_8667Q-Junsun-UI03-car-model-1280x720.tar.xz | Compressed | 1,890,626,284 bytes | a03d85303ee04f50ff878955ea43173f |
+| 8667.bin                                                      | Unpacked   | 4,107,700,820 bytes | 5fab73ee0f1282ce2e66ce92f168c049 |
 
 ## Creation process for all the firmware releases
 
