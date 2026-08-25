@@ -1,4 +1,4 @@
-# Vhedia head unit
+# Vhedia (& Junsun) head unit(s)
 
 ## Background / rationale
 
